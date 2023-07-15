@@ -1,0 +1,53 @@
+body {
+    background-color: #37505C;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  p {
+    font-family: 'Finger Paint', cursive;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    font-family: 'Finger Paint', cursive;
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: 10px;
+    cursor: pointer;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  button:active {
+    background-color: #45a049;
+  }
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  p {
+    font-family: 'Finger Paint', cursive;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+    animation: fadeIn 1s ease-in-out;
+  }

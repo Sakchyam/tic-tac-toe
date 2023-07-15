@@ -1,0 +1,37 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+
+  body {
+    background-color: #37505C;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  h1 {
+    font-size: 24px;
+    color: white
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color:white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #quoteText {
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: center;
+  }
+  
